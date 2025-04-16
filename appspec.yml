@@ -5,7 +5,7 @@ files:
     destination: /usr/share/tomcat/webapps/
 hooks:
   BeforeInstall:
-    - location: scripts/install_dependencies.sh
+    - location: /home/ec2-user/nextwork-web-project/scripts/install_dependencies.sh
       timeout: 300
       runas: root
   ApplicationStart:
